@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equacao-2-grau</title>
+    <link rel="icon" type="image/x-icon" href="./assets/images/iconex.png">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/quiz.styles.css">
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <img class="cabecalho-imagem" src="./assets/images/icone.png" alt="logo">
+        <nav class="cabecalho-menu">
+            <a class="cabecalho-item" href="index.html">Home</a>
+            <a class="cabecalho-item" href="quiz.html">Quiz</a>
+            <a class="cabecalho-item" href="pratica.html">Pratica</a>
+        </nav>
+    </header>
+    <form>
+        <div>
+            <div class="perguntas">1) A equação do 2º grau que possui como solução os números –2 e 3 é:</div>
+            <div>
+                <input type="radio" id="a1" name="questao1" value="a">
+                <label for="a1">A) x2 + 2x - 3 = 0</label><br>
+            </div>
+
+            <div>
+                <input type="radio" id="b1" name="questao1" value="b">
+                <label for="b1">B) x2 - x + 6 = 0</label><br>
+            </div>
+
+            <div>
+                <input type="radio" id="c1" name="questao1" value="c">
+                <label for="c1">C) x2 - 3x + 2 = 0</label>
+            </div>
+
+            <div>
+                <input type="radio" id="d1" name="questao1" value="d">
+                <label for="d1">D) x2 - x - 6 = 0</label>
+            </div><br>
+
+            <button id="botao-questao1">
+                Responder
+            </button><br>
+
+            <div class="gabaritos">
+                <span id="gabarito1"></span>
+            </div>
+        </div>
+
+        <div class="perguntas">2) Sobre o discriminante de uma equação do 2° grau, podemos dizer que uma equação não
+            possui solução real se:</div>
+        <div>
+            <input type="radio" id="a2" name="questao2" value="a">
+            <label for="a2">A) Δ = 0</label><br>
+
+        </div>
+        <div>
+            <input type="radio" id="b2" name="questao2" value="b">
+            <label for="b2">B) Δ = 1</label><br>
+        </div>
+        <div>
+            <input type="radio" id="c2" name="questao2" value="c">
+            <label for="c2">C) Δ < 0</label>
+        </div>
+        <div>
+            <input type="radio" id="d2" name="questao2" value="d">
+            <label for="d2">D) Δ ≤ 0</label>
+        </div><br>
+
+        <button id="botao-questao2">
+            Responder
+        </button>
+        
+        <div class="gabaritos">
+            <span id="gabarito2"></span>
+        </div>
+        </div>
+
+        <div class="perguntas">3) Conhecendo a equação do 2º grau incompleta 2 x2 - 8 = 0, podemos afirmar que:</div>
+        <div>
+            <input type="radio" id="a3" name="questao3" value="a">
+            <label for="a3">A) A soma das soluções dessa equação é igual a 0.</label><br>
+
+        </div>
+        <div>
+            <input type="radio" id="b3" name="questao3" value="b">
+            <label for="b3">B) O produto das soluções dessa equação é igual a 1.</label><br>
+        </div>
+        <div>
+            <input type="radio" id="c2" name="questao3" value="c">
+            <label for="c3">C) A divisão entre as raízes dessa equação é 1.</label>
+        </div>
+        <div>
+            <input type="radio" id="d2" name="questao3" value="d">
+            <label for="d3">D) Essa equação não possui soluções reais.</label>
+        </div>
+        <div>
+            <input type="radio" id="e2" name="questao3" value="e">
+            <label for="e3">E) Existe uma única solução para essa equação.</label>
+        </div><br>
+
+        <button id="botao-questao3">
+            Responder
+        </button>
+
+        <div class="gabaritos">
+            <span id="gabarito3"></span>
+        </div>
+        </div>
+
+        <div class="perguntas">4) Analisando a equação do 2° grau x² – 2x +1 = 0, podemos afirmar que ela possui:</div>
+        <div>
+            <input type="radio" id="a4" name="questao4" value="a">
+            <label for="a4">A) Nenhuma solução real. </label><br>
+
+        </div>
+        <div>
+            <input type="radio" id="b4" name="questao4" value="b">
+            <label for="b4">B) Uma única solução real.</label><br>
+        </div>
+        <div>
+            <input type="radio" id="c4" name="questao4" value="c">
+            <label for="c4">C) Duas soluções reais.</label>
+        </div>
+        <div>
+            <input type="radio" id="d4" name="questao4" value="d">
+            <label for="d4">D) Três soluções reais.</label>
+        </div>
+        <div>
+            <input type="radio" id="e4" name="questao4" value="e">
+            <label for="e4">E) Infinitas soluções reais.</label>
+        </div><br>
+
+        <button id="botao-questao4">
+            Responder
+        </button>
+
+        <div class="gabaritos">
+            <span id="gabarito4"></span>
+        </div>
+        </div>
+
+        <div class="perguntas">5) Das equações quadráticas abaixo e sabendo que a = 1, qual é a equação que possui as
+            soluções x¹ = 2 e x² = - 3? </div>
+        <div>
+            <input type="radio" id="a5" name="questao5" value="a">
+            <label for="a5">A) x² + x – 6 = 0</label><br>
+
+        </div>
+        <div>
+            <input type="radio" id="b5" name="questao5" value="b">
+            <label for="b5">B) x² – x – 6 = 0 </label><br>
+        </div>
+        <div>
+            <input type="radio" id="c5" name="questao5" value="c">
+            <label for="c5">C) x² + 5x + 6 = 0 </label>
+        </div>
+        <div>
+            <input type="radio" id="d5" name="questao5" value="d">
+            <label for="d5">D) x² – 5x + 6 = 0</label>
+        </div>
+        <div>
+            <input type="radio" id="e5" name="questao5" value="e">
+            <label for="e5">E) x² + x – 1 = 0</label>
+        </div><br>
+
+        <button id="botao-questao5">
+            Responder
+        </button>
+
+        <div class="gabaritos">
+            <span id="gabarito5"></span>
+        </div>
+
+        <div class="perguntas">6) O produto entre as raízes da equação 2x² + 4x - 6 = 0 é igual a: </div>
+        <div>
+            <input type="radio" id="a6" name="questao6" value="a">
+            <label for="a6">A) -2 </label><br>
+
+        </div>
+        <div>
+            <input type="radio" id="b6" name="questao6" value="b">
+            <label for="b6">B) 2 </label><br>
+        </div>
+        <div>
+            <input type="radio" id="c6" name="questao6" value="c">
+            <label for="c6">C) 1 </label>
+        </div>
+        <div>
+            <input type="radio" id="d6" name="questao6" value="d">
+            <label for="d6">D) 3</label>
+        </div>
+        <div>
+            <input type="radio" id="e6" name="questao6" value="e">
+            <label for="e6">E) -3</label>
+        </div><br>
+        <button id="botao-questao6">
+            Responder
+        </button>
+
+        <div class="gabaritos">
+            <span id="gabarito6"></span>
+        </div>
+        </div>
+
+        <div class="perguntas">7) Dada a equação -x² - 4x + 5 = 0, podemos afirmar que o conjunto de soluções dessa
+            equação é: </div>
+        <div>
+            <input type="radio" id="a7" name="questao7" value="a">
+            <label for="a7">A) x’ = 2 e x” = -1</label><br>
+
+        </div>
+        <div>
+            <input type="radio" id="b7" name="questao7" value="b">
+            <label for="b7">B) x’ = -10 e x” = -1 </label><br>
+        </div>
+        <div>
+            <input type="radio" id="c7" name="questao7" value="c">
+            <label for="c7">C) x’ = -5 e x” = 1</label>
+        </div>
+        <div>
+            <input type="radio" id="d7" name="questao7" value="d">
+            <label for="d7">D) x’ = 5 e x” = 1</label>
+        </div>
+        <div>
+            <input type="radio" id="e7" name="questao7" value="e">
+            <label for="e7">E) x’ = 6 e x” = - 6 </label>
+        </div><br>
+        <button id="botao-questao7">
+            Responder
+        </button>
+
+        <div class="gabaritos">
+            <span id="gabarito7"></span>
+        </div>
+        </div>
+
+        <div class="perguntas">8) A multiplicação entre a idade de Kárita e a idade de Karla é igual a 374. Kárita é 5
+            anos mais velha que Karla. Quantos anos Karla e Kárita possuem respectivamente? </div>
+        <div>
+            <input type="radio" id="a8" name="questao8" value="a">
+            <label for="a8">A) 12 e 17 anos </label><br>
+
+        </div>
+        <div>
+            <input type="radio" id="b8" name="questao8" value="b">
+            <label for="b8">B) 17 e 22 anos</label><br>
+        </div>
+        <div>
+            <input type="radio" id="c8" name="questao8" value="c">
+            <label for="c8">C) 22 e 27 anos</label>
+        </div>
+        <div>
+            <input type="radio" id="d8" name="questao8" value="d">
+            <label for="d8">D) 20 e 25 anos </label>
+        </div>
+        <div>
+            <input type="radio" id="e8" name="questao8" value="e">
+            <label for="e8">E) 18 e 23 anos</label>
+        </div><br>
+        <button id="botao-questao8">
+            Responder
+        </button>
+
+        <div class="gabaritos">
+            <span id="gabarito8"></span>
+        </div>
+        </div>
+
+        <div class="perguntas">9) (UERGS) Sendo S a soma e P o produto das raízes da equação 2x² − 5x − 7 = 0, pode-se afirmar que: </div>
+        <div>
+            <input type="radio" id="a9" name="questao9" value="a">
+            <label for="a9">A) S − P = 6. </label><br>
+
+        </div>
+        <div>
+            <input type="radio" id="b9" name="questao9" value="b">
+            <label for="b9">B) S + P = 2.</label><br>
+        </div>
+        <div>
+            <input type="radio" id="c9" name="questao9" value="c">
+            <label for="c9">C) S ⋅ P = 4. </label>
+        </div>
+        <div>
+            <input type="radio" id="d9" name="questao9" value="d">
+            <label for="d9">D) S / P = 1</label>
+        </div>
+        <div>
+            <input type="radio" id="e9" name="questao9" value="e">
+            <label for="e9">E) S < P</label>
+        </div><br>
+        <button id="botao-questao9">
+            Responder
+        </button>
+
+        <div class="gabaritos">
+            <span id="gabarito9"></span>
+        </div>
+        </div>
+        <div class="perguntas">10) (Fatec) Se a equação x² - 10x + k = 0 tem uma raiz de multiplicidade 2, então o valor de k é:</div>
+        <div>
+            <input type="radio" id="a10" name="questao10" value="a">
+            <label for="a10">A) 100 </label><br>
+
+        </div>
+        <div>
+            <input type="radio" id="b10" name="questao10" value="b">
+            <label for="b10">B) 25</label><br>
+        </div>
+        <div>
+            <input type="radio" id="c10" name="questao10" value="c">
+            <label for="c10">C) 5</label>
+        </div>
+        <div>
+            <input type="radio" id="d10" name="questao10" value="d">
+            <label for="d10">D) 1</label>
+        </div>
+        <div>
+            <input type="radio" id="e10" name="questao10" value="e">
+            <label for="e10">E) 0</label>
+        </div><br>
+        <button id="botao-questao10">
+            Responder
+        </button>
+
+        <div class="gabaritos">
+            <span id="gabarito10"></span>
+        </div>
+        </div>
+    </form>
+    <footer class="rodapé">
+        <h3 class="rodapé-texto">Veja a resolução dos exercícios em:</h3>
+        <h4 class="rodapé-texto">Leitura:</h4>
+
+        <a href="https://exercicios.mundoeducacao.uol.com.br/exercicios-matematica/exercicios-sobre-equacao-2-grau.htm#resposta-9307" class="links">Resolução dos exercícios 1, 2 e 3</a>
+        <a href="https://exercicios.brasilescola.uol.com.br/amp/exercicios-matematica/exercicios-sobre-equacao-2-o-grau.htm" class="links">Resolução dos exercícios 4, 5, 6, 7, 8, 9 e 10</a>
+
+        <h4 class="rodapé-texto">Vídeo-aula:</h4>
+        <div class="links">
+        <a href="https://www.youtube.com/watch?v=f7GbW4UkB6s" >Resolução do exercício 1</a>
+        <a href="https://www.youtube.com/watch?v=TgdAf52p1F0" >Resolução do exercício 2</a>
+        <a href="https://www.youtube.com/watch?v=Z95bk5XG5OM" >Resolução base do exercício 3</a>
+        <a href="https://www.youtube.com/watch?v=J7ITLpP3QVo&t=5s">Resolução do exercício 4</a>
+        <a href="https://www.youtube.com/watch?v=3T46Ra0uqdk" >Resolução do exercício 5</a>
+    </div>
+    <div class="links">
+        <a href="https://www.youtube.com/watch?v=i8DDkoEKIIE" >Resolução do exercício 6</a>
+        <a href="https://www.youtube.com/watch?v=AZfBOPi3eqw" >Resolução do exercício 7</a>
+        <a href="https://www.youtube.com/watch?v=3mYCAVG0Zew" >Resolução do exercício 8</a>
+        <a href="https://www.youtube.com/watch?v=xpiS773dLi8" >Resolução do exercício 9</a>
+        <a href="https://www.youtube.com/watch?v=VXfAyvIMJRw" >Resolução do exercício 10</a>
+    </div>
+    </footer>
+
+    <script src="assets/javascritpts/quiz.js"></script>
+</body>
+
+</html>

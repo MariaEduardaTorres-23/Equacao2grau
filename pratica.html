@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equacao-2-grau</title>
+    <link rel="stylesheet" href="assets/css/pratica.styles.css">
+    <link rel="icon" type="image/x-icon" href="./assets/images/iconex.png">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho-imagem" src="./assets/images/icone.png" alt="logo">
+        <nav class="cabecalho-menu">
+            <a class="cabecalho-item" href="index.html">Home</a>
+            <a class="cabecalho-item" href="quiz.html">Quiz</a>
+            <a class="cabecalho-item" href="pratica.html">Pratica</a>
+    </nav>
+    </header>
+    <h1 class="conteudo-titulo">Equação do 2º Grau</h1><br>
+
+    <form>
+        <div>
+        <div>
+            <label for="a">a</label>
+            <input type="number" id="a"> <br>
+        </div>
+
+        <div>
+            <label for="b">b</label>
+            <input type="number" id="b"> <br>
+        </div>
+
+        <div>
+            <label for="c">c</label>
+            <input type="number" id="c"> <br>
+        </div>
+
+        <div>
+            <label for="xMin">x mínimo</label>
+            <input type="number" id="xMin"> <br>
+        </div>
+
+        <div>
+            <label for="xMax">x máximo</label>
+            <input type="number" id="xMax"> <br>
+        </div>
+
+        <div>
+            <button id="calcular"> 
+                Calcular 
+            </button> 
+        </div>
+    </div>
+    </form>
+        <div>
+            <canvas id="myChart">
+
+            </canvas>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js"></script>
+        <script src="assets/javascritpts/pratica.js"></script>
+</body>
+
+
+</html>
